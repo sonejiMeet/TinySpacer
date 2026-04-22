@@ -14,7 +14,8 @@ I wanted most minimal (tinyspacer uses < 1 MB) way to group windows into a few w
 
 1. Download the `tinyspacer.exe` release or build from source.
 2. Run it.
-3. Look for the numbered TinySpacer icon in the system tray. (If you don't see it, press on "show hidden icons" and drag the TinySpacer icon to the taskbar.)
+3. Look for the numbered TinySpacer icon in the system tray which shows group you are currently inside.
+   (If you don't see it, press on "show hidden icons" and drag the TinySpacer icon to the taskbar.)
 
    ![tray icon](https://github.com/user-attachments/assets/1fbfd8a6-7d0f-4f3a-9b04-f3442f1f2708)
 
