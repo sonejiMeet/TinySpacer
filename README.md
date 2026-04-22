@@ -1,6 +1,6 @@
 # TinySpacer
 
-TinySpacer is a minimal, no‑bullshit workspace grouper for Windows.
+TinySpacer is a minimal, workspace grouper for Windows.
 
 ## What it does
 
@@ -14,19 +14,8 @@ It does **not** create real Windows “virtual desktops”. It just hides and sh
 ## Why
 
 I have used GlazeWM, Komorebi, Workspacer, they are simply too bloated for my needs and I just didn't like how the tiling manager in them got in my way constantly.
-I wanted most minimal, no‑bullshit way to group windows into a few workspaces on Windows without installing a huge window manager. 
+I wanted most minimal (tinyspacer uses < 1 MB), way to group windows into a few workspaces on Windows without installing a huge window manager. 
 
-Enjoy!
-
-## Hotkeys
-
-- `Alt + 1` … `Alt + 5`  
-  Switch to workspace 1–5.
-
-- `Alt + Shift + 1` … `Alt + Shift + 5`  
-  Move the current foreground window into workspace 1–5 and switch there.
-
-All hotkeys are global and work with any normal window.
 
 ## How to use
 
@@ -34,13 +23,25 @@ All hotkeys are global and work with any normal window.
 2. Run it.
 3. Look for the numbered TinySpacer icon in the system tray. (If you dont see it, press on "show hidden icons" and drag the TinySpacer icon to taskbar) <img width="46" height="127" alt="image" src="https://github.com/user-attachments/assets/1fbfd8a6-7d0f-4f3a-9b04-f3442f1f2708" />
 
-4. Use `Alt + 1`–`5` to jump between groups, and `Alt + Shift + 1`–`5` to move the active window.
+## Hotkeys
 
-To exit, right‑click the tray icon and choose “Exit TinySpacer”. This will also release ALL the windows.
+- `Alt + 1` … `Alt + 5`  
+  Switch to workspace 1–5.
+  ##### Ex. You are in group 1 and want to move to group 3, just press `Alt + 3`
+  
+- `Alt + Shift + 1` … `Alt + Shift + 5`  
+  Move the current foreground window into workspace 1–5 and switch there.
+  ##### Ex. You are in group 1 and want to move focused/window to group 3, just press `Alt + Shift + 3`. This will "drag" selected window and keep it there.
+
+By default (when tinyspacer is launched) all currently opened windows will be attached to Group 1.
+
+
+## Exit
+To exit, right‑click the tray icon (on taskbar) and choose “Exit TinySpacer”. This will also release **ALL** the windows that were scattered accross different groups!
 
 ## To Build run:
 ```
 ./build.bat
 ```
 
-TinySpacer is a single exe, a tray icon, and a couple of hotkeys. That’s it.
+TinySpacer is a single exe, a tray icon, and a couple of hotkeys. That’s it. Enjoy!
