@@ -2,26 +2,21 @@
 
 TinySpacer is a minimal, workspace grouper for Windows.
 
-## What it does
-
-- Tracks normal top‑level windows (ignores the taskbar, desktop, tool windows).
-- Keeps 5 window groups in memory.
-- Hides windows from the inactive groups and shows only the current group.
-- Shows a numbered tray icon (1–5) for the active group.
-
 It does **not** create real Windows “virtual desktops”. It just hides and shows windows fast enough that it feels like it.
 
 ## Why
 
 I have used GlazeWM, Komorebi, Workspacer, they are simply too bloated for my needs and I just didn't like how the tiling manager in them got in my way constantly.
-I wanted most minimal (tinyspacer uses < 1 MB), way to group windows into a few workspaces on Windows without installing a huge window manager. 
+I wanted most minimal (tinyspacer uses < 1 MB) way to group windows into a few workspaces on Windows without installing a huge window manager. 
 
 
 ## How to use
 
 1. Download the `tinyspacer.exe` release or build from source.
 2. Run it.
-3. Look for the numbered TinySpacer icon in the system tray. (If you dont see it, press on "show hidden icons" and drag the TinySpacer icon to taskbar) <img width="46" height="127" alt="image" src="https://github.com/user-attachments/assets/1fbfd8a6-7d0f-4f3a-9b04-f3442f1f2708" />
+3. Look for the numbered TinySpacer icon in the system tray. (If you don't see it, press on "show hidden icons" and drag the TinySpacer icon to the taskbar.)
+
+   ![tray icon](https://github.com/user-attachments/assets/1fbfd8a6-7d0f-4f3a-9b04-f3442f1f2708)
 
 ## Hotkeys
 
@@ -44,4 +39,9 @@ To exit, right‑click the tray icon (on taskbar) and choose “Exit”. This wi
 ./build.bat
 ```
 
-TinySpacer is a single exe, a tray icon, and a couple of hotkeys. That’s it. Enjoy!
+## Tips
+Personally, I have created a task scheduler that triggers **At log on** with **Run with highest privileges**, because the Hide/Show win32 callback in Tinyspacer wont touch windows that ran as administrator.
+But if TinySpacer launches with highest privileg then it can handle them as well.
+
+P.S.
+TinySpacer is a single exe, a tray icon, and a couple of hotkeys. That’s it.
