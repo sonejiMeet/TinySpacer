@@ -137,6 +137,10 @@ void UpdateTrayIcon() {
     g_nid.uFlags = NIF_TIP | NIF_ICON;
     Shell_NotifyIconA(NIM_MODIFY, &g_nid);
 
+    // if explorer shell restarted add  tray icon back (this is only triggered when one of the tinyspacer shortcuts are pressed)
+    if (!Shell_NotifyIconA(NIM_MODIFY, &g_nid)) {
+        Shell_NotifyIconA(NIM_ADD, &g_nid);
+    }
     static HICON prev = NULL;
     if (prev) DestroyIcon(prev);
     prev = icon;
