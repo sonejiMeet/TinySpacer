@@ -1,5 +1,9 @@
-# TinySpacer
+# Important Note 
+This is an outdated project. i don't recommend it for daily usecases as this particular version was just a prototype. 
 
+To get the official release please visit [https://tinybin.dev/tinyspacer](https://tinybin.dev/tinyspacer).
+
+# About
 TinySpacer is a minimal, workspace grouper for Windows.
 
 It does **not** create real Windows “virtual desktops”. It just hides and shows windows fast enough that it feels like it.
@@ -17,7 +21,7 @@ I wanted most minimal (tinyspacer uses < 1 MB) way to group windows into a few w
 3. Look for the numbered TinySpacer icon in the system tray which shows group you are currently inside.
    (If you don't see it, press on "show hidden icons" and drag the TinySpacer icon to the taskbar.)
 
-   ![tray icon](https://github.com/user-attachments/assets/1fbfd8a6-7d0f-4f3a-9b04-f3442f1f2708)
+   ![tray icon](https://github.com/user-attachments/assets/a0954a8a-7a0c-4c5b-96b9-31b1431b16dc)
 
 ## Hotkeys
 
