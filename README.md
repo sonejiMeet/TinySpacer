@@ -1,6 +1,5 @@
-# Important Note 
+>[!IMPORTANT]
 This is an outdated project. i don't recommend it for daily usecases as this particular version was just a prototype. 
-
 To get the official release please visit [https://tinybin.dev/tinyspacer](https://tinybin.dev/tinyspacer).
 
 # About
